@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import infinite from '/Users/Huff/Desktop/Creatives Lync/clyncs/src/components/Homepage/infinitelinks4.jpg';
 
-const Homepagecontent = props => {
+const HomepageContent = props => {
   return (
         <div className="center">
         <img className="infinite" src={infinite} />
@@ -13,8 +13,6 @@ const Homepagecontent = props => {
   )
 }
 
-Homepagecontent.Proptypes={
-  homepagecontent: PropTypes.object.isRequired
-}
 
-export default Homepagecontent;
+
+export default HomepageContent;
