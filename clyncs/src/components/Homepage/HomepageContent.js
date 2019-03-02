@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import infinite from '/Users/Huff/Desktop/Creatives Lync/clyncs/src/components/Homepage/infinitelinks4.jpg';
+import infinite from './infinitelinks4.jpg';
 
 const HomepageContent = props => {
   return (
