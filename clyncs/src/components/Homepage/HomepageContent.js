@@ -7,7 +7,7 @@ const HomepageContent = props => {
         <div className="center">
         <img className="infinite" src={infinite} />
           <div className="btn">
-            <button>Create</button> <button>Collaborate</button> <button>Consume</button>
+            <button>About Me</button> <button>Collaborate</button> <button>Consume</button>
           </div>
         </div>
   )

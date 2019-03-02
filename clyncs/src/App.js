@@ -14,8 +14,6 @@ class App extends Component{
     render () {
     return (
       <div className="App">
-      <NavLink className= "Home" to ="/home"> Home</NavLink>
-      <TopBar />
       <HomepageHeader />
       <Homepagecontent />
       <Route path="/home"  component={App} loc="https://www.luvvvnomore.com"  />
