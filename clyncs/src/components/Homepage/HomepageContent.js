@@ -1,13 +1,16 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import infinite from './infinitelinks4.jpg';
+import { withRouter, NavLink, Route } from 'react-router-dom';
+import AboutMe from '../About/AboutMe';
 
 const HomepageContent = props => {
+
+
   return (
         <div className="center">
-        <img className="infinite" src={infinite} />
           <div className="btn">
-            <button>About Me</button> <button>Collaborate</button> <button>Consume</button>
+            <button>Projects</button> 
+            <button>Contact</button>
+           
           </div>
         </div>
   )
@@ -16,3 +19,4 @@ const HomepageContent = props => {
 
 
 export default HomepageContent;
+

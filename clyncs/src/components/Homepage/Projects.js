@@ -1,10 +1,11 @@
 import React from 'react';
 import infinite from './infinitelinks4.jpg';
 
-const UnderConstruct = props => {
+const Projects = props => {
   return (
         <div className="center">
-        <img className="infinite" src={infinite} />
+        <a href="https://adventureatlambda.netlify.com/">
+        <img className="infinite" src={infinite} /></a>
         <h1>UNDER CONSTRUCTION</h1>
         </div>
   )
@@ -12,4 +13,4 @@ const UnderConstruct = props => {
 
 
 
-export default UnderConstruct;
+export default Projects;
