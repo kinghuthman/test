@@ -1,44 +1,24 @@
+import React, { Component } from 'react';
+import Pdf from './HuthmanKingWebDeveloper.pdf';
+import resume from './Huthman King Web Developer.jpg';
 
-
-  import React, { Component } from "react";
-  import { Document, Page } from "react-pdf";
-  
 class Resume extends Component {
-    state = { numPages: null, pageNumber: 1 };
-  
-    onDocumentLoadSuccess = ({ numPages }) => {
-      this.setState({ numPages });
-    };
-  
-    goToPrevPage = () =>
-      this.setState(state => ({ pageNumber: state.pageNumber - 1 }));
-    goToNextPage = () =>
-      this.setState(state => ({ pageNumber: state.pageNumber + 1 }));
-  
-    render() {
-      const { pageNumber, numPages } = this.state;
-  
-      return (
-        <div>
-          <nav>
-            <button onClick={this.goToPrevPage}>Prev</button>
-            <button onClick={this.goToNextPage}>Next</button>
-          </nav>
-  
-          <div style={{ width: 600 }}>
-            <Document
-              file="public/HuthmanKingWebDeveloper.pdf"
-              onLoadSuccess={this.onDocumentLoadSuccess}
-            >
-              <Page pageNumber={pageNumber} width={600} />
-            </Document>
-          </div>
-  
-          <p>
-            Pag {pageNumber} of {numPages}
-          </p>
-        </div>
-      );
-    }
+
+  render() {
+
+    return (
+    <div>
+      <div className = "App">
+        <a href = {Pdf} target = "_blank">Download Resume</a>
+      </div>
+      <div className="center">
+      <a href={Pdf} target = "_blank">
+      <img className="resume" src={resume} /></a>
+      </div>
+      </div>
+    );
   }
+}
+
 export default Resume;
+
