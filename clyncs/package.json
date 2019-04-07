@@ -6,7 +6,8 @@
     "netlify-cli": "^2.8.1",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
-    "react-mail-form": "^1.0.2",
+    "react-mail-form": "^1.0.3",
+    "react-pdf": "^4.0.5",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.5",
     "styled-components": "^4.1.3"
