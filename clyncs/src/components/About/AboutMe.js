@@ -1,10 +1,10 @@
 import React from 'react';
 
-const AboutMe = props => {
+const AboutMe = () => {
   return (
         <div className="center">
           <div className="btn">
-            hey
+            <p>A 27 year old NJ native.</p>
           </div>
         </div>
   )

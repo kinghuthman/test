@@ -87,6 +87,15 @@ ul.header li {
 ul.header {
   background-color: #111;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 96.8%;
+  z-index: 100;
+  top: 0px;
 }
 ul.header li a {
   color: #FFF;
@@ -98,6 +107,8 @@ ul.header li a {
 .content {
   background-color: #FFF;
   padding: 20px;
+  width: 96.8%;
+  margin-top: 50px;
 }
 .content h2 {
   padding: 0;

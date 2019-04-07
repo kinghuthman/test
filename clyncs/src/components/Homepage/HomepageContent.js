@@ -1,22 +1,14 @@
 import React from 'react';
-import { withRouter, NavLink, Route } from 'react-router-dom';
-import AboutMe from '../About/AboutMe';
 
-const HomepageContent = props => {
-
-
+const HomepageContent = () => {
   return (
         <div className="center">
-          <div className="btn">
-            <button>Projects</button> 
-            <button>Contact</button>
-           
+        <div className="btn">
+          <p>A Full-Stack Web Developer</p>
           </div>
         </div>
   )
 }
-
-
 
 export default HomepageContent;
 
