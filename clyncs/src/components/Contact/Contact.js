@@ -8,7 +8,7 @@ const Contact = () => {
   return (
         
           
-          <ReactContactForm to="kinghuthman@gmail.com" className="btn" titleMaxLength='10' contentsRows='20'/>
+          <ReactContactForm to="kinghuthman@gmail.com" className="contact" titleMaxLength='10' contentsRows='20'/>
           
        
   )
