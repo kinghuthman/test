@@ -12,7 +12,7 @@ class Resume extends Component {
       <div>
         <a href = {Pdf} target = "_blank">Download Resume</a>
       </div>
-        <div>
+        <div className="resumeimg">
           <a href={Pdf} target = "_blank">
           <img className="resume" src={resume} /></a>
         </div>
