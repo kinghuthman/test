@@ -122,6 +122,12 @@
   color: white;
 }
 
+.sociallink:hover {
+  opacity: .4;
+  position: relative;
+  top: -5px;
+}
+
 button{
   width:200px;
   height:50px;
@@ -166,8 +172,13 @@ ul.header li a {
   text-decoration: none;
   padding: 20px;
   display: inline-block;
-  
 }
+ul.header li a:hover {
+  opacity: .4;
+  position: relative;
+  top: 3px;
+}
+
 .content {
   padding: 20px;
   width: 96.8%;

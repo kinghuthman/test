@@ -1,4 +1,8 @@
 import React from 'react';
+import twitter from './img/twitter.png';
+import github from './img/github.png';
+import linked from './img/linked.png';
+
 
 const HomepageContent = () => {
   return (
@@ -10,13 +14,13 @@ const HomepageContent = () => {
          
           <div className="socials">
             <a href="https://www.linkedin.com/in/huthman-king-8b7376174/">
-              <p className="sociallink">Linkedin</p>
+            <img className="sociallink" src ={linked}/>
             </a>
             <a href="https://github.com/kinghuthman">
-              <p className="sociallink">Github</p>
+              <img className="sociallink" src ={github}/>
             </a>
             <a href="https://twitter.com/kinghuthman">
-              <p className="sociallink">Twitter</p>
+            <img className="sociallink" src={twitter} />
             </a>
           </div>
           </div>
