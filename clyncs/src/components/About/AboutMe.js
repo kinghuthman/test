@@ -2,8 +2,9 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
-        <div>
-          <h1>About Me</h1>
+      <div className="aboutcontain">
+        <div className="aboutcontainer">
+          <h1 className = "aboutheader">About Me</h1>
           <div className="about">
             <p className="aboutme">A 27 year old New Jersey native, currently residing in Lumberton, NJ. 
               Graduated from Iona College in New Rochelle, New York. From a young age 
@@ -13,7 +14,7 @@ const AboutMe = () => {
           </div>
           <div className="skills">
             <h1>Skills</h1>
-              <ul>
+              <ul className="aboutmelist">
                 <li>JavaScript</li>
                 <li>React/Redux</li>
                 <li>Node.js/Express</li>
@@ -21,10 +22,10 @@ const AboutMe = () => {
                 <li>C</li>
                 <li>PostgreSQL/MySQL</li>
                 <li>Photoshop</li>
-                <li>Reason(Audio Engineering)</li>
+                <li>Reason(Audio Engineering/Production)</li>
               </ul>
             <h1>Hobbies</h1>
-              <ul>
+              <ul className="aboutmelist">
                 <li>Programming</li>
                 <li>Creating Music</li>
                 <li>Sports</li>
@@ -33,6 +34,7 @@ const AboutMe = () => {
                 <li>Adventures!</li>
               </ul>
           </div>
+        </div>
         </div>
   )
 }

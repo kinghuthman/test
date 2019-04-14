@@ -60,10 +60,16 @@
   margin-top: 0px;
 }
 
+.homepage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .home{
   display: flex;
-  justify-content: space-evenly;
-  width:100%;
+  justify-content: center;
+  align-content: center;
+  width:80%;
   margin-top: 0px;
   background-image: url("./4795545136_IMG_0989.png");
   height: 100%; 
@@ -82,6 +88,23 @@
 }
 
 .contact{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutcontainer{
+  width: 80%;
+}
+.aboutcontain{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+.aboutheader{
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -116,6 +139,10 @@
   margin-right: 0%;
   width: 96%;
   align-content: center;
+  opacity: .6;
+}
+.aboutmelist{
+  opacity: .6;
 }
 
 .sociallink{
@@ -127,7 +154,22 @@
   position: relative;
   top: -5px;
 }
-
+.resumecontain{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  align-items: center;
+  flex-direction: column;
+}
+.resumecontains{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+.resumecontainer{
+    width: 80%;
+  }
 button{
   width:200px;
   height:50px;
