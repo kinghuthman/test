@@ -92,8 +92,28 @@
   padding-top: 200px;
   padding-bottom: 300px;
 }
+
+@media screen and (max-width: 1080px) {
+  .home{
+    width: 80%;
+    background-image: url("./huff.jpg");
+    display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2%;
+  }
+}
 .homeContent{
   color: white;
+}
+@media screen and (max-width: 1080px) {
+  .homeContent{
+    font-size: 14px;
+    display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 140%;
+  }
 }
 
 .resume{
@@ -172,6 +192,15 @@ a:hover{
   margin-left: 50%;
 }
 
+@media screen and (max-width: 1080px) {
+  .info{
+    width:80%;
+    position: relative;
+    right: 20%;
+  }
+}
+
+
 .about{
   display: flex;
   justify-content: center;
@@ -194,6 +223,12 @@ a:hover{
 
 .sociallink{
   color: white;
+}
+
+@media screen and (max-width: 1080px) {
+  .socials{
+    width: 85%;
+  }
 }
 
 .sociallink:hover {
@@ -254,6 +289,24 @@ ul.header {
   z-index: 100;
   top: 0px;
   box-shadow: 0 0 5px;
+  
+}
+
+@media screen and (max-width: 1080px) {
+  ul.header {
+    background-color: blue;
+    width: 80%;
+    margin-left: 9%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  ul.header {
+    width: 60%;
+    font-size: 12px;
+    position: relative;
+    left: 10%;
+  }
 }
 ul.header li a {
   color: #FFF;
@@ -272,6 +325,12 @@ ul.header li a:hover {
   padding: 20px;
   width: 96.8%;
   margin-top: 50px;
+}
+
+@media screen and (max-width: 1080px) {
+  .content{
+    margin-top: 5%;
+  }
 }
 .content h2 {
   padding: 0;
