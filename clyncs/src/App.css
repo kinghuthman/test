@@ -294,7 +294,6 @@ ul.header {
 
 @media screen and (max-width: 1080px) {
   ul.header {
-    background-color: blue;
     width: 80%;
     margin-left: 9%;
   }
