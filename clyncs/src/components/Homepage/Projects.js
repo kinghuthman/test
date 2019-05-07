@@ -13,7 +13,7 @@ const Projects = () => {
               <a href="https://adventureatlambda.netlify.com/" className="gifhere">
               <img className="gifone" src={lambdamud} /></a>
             </div>
-              <h2>A multi user dungeon game created with react on the frontend and python on the backend. </h2>
+              <h2>A multi-user dungeon game created with React on the frontend and Django on the backend. </h2>
               <p>  </p>
                 <a href="https://github.com/kinghuthman/LambdaMUD-Client">Client Repository</a>
                 <p>  </p>
@@ -29,7 +29,7 @@ const Projects = () => {
                 <a href="https://symposium-frontend.netlify.com/" className="gifhere">
                 <img className="gif" src={symposium} /></a>
               </div>
-                <h2 className="gifhere">A discussion board created with react/redux on the frontend, node.js/express on the backend, 
+                <h2 className="gifhere">A discussion board created with React/Redux on the frontend, Node.js/Express on the backend, 
                   with a PostgreSQL database.</h2>
                   <p>  </p>
                   <a href="https://github.com/Lambda-School-Labs/labs10-discussion-board">Client/Server Repository </a>
