@@ -95,12 +95,12 @@
 
 @media screen and (max-width: 1080px) {
   .home{
-    width: 80%;
+    width: 100%;
     background-image: url("./huff.jpg");
     display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-top: 2%;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2%;
   }
 }
 .homeContent{
@@ -170,7 +170,12 @@
 .gifhere a{
   text-decoration: none;
 }
-
+.projectTitle{
+  text-decoration: underline;
+}
+.line {
+  border-width: 3px;
+}
 a {
   text-decoration: none;
   color: black;
@@ -301,10 +306,10 @@ ul.header {
 
 @media screen and (max-width: 620px) {
   ul.header {
-    width: 60%;
+    width: 80%;
     font-size: 12px;
     position: relative;
-    left: 10%;
+    left: 5%;
   }
 }
 ul.header li a {

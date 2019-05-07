@@ -7,8 +7,8 @@ const AboutMe = () => {
           <h1 className = "aboutheader">About Me</h1>
           <div className="about">
             <p className="aboutme">A 27 year old New Jersey native, currently residing in Lumberton, NJ. 
-              Graduated from Iona College in New Rochelle, New York. From a young age 
-              I've always loved creating and expressing myself in various ways. Whether it be sports, music, 
+              Graduated from Iona College in New Rochelle, New York, with a Business Administration degree. 
+              From a young age I've always loved creating and expressing myself in various ways. Whether it be sports, music, 
               or various fields of art, programming has allowed me to dive deeper and gain insight into a whole
               new way of approaching life.</p>
           </div>
@@ -31,7 +31,7 @@ const AboutMe = () => {
                 <li>Sports</li>
                 <li>Manchester United</li>
                 <li>Philosphy/Psychology</li>
-                <li>Adventures!</li>
+                <li>Adventuring!</li>
               </ul>
           </div>
         </div>

@@ -9,6 +9,7 @@ const Projects = () => {
         <h1>Projects</h1>
           <div className="projectcontainer">
             <div className="gifcontainer">
+              <h2 className="projectTitle"> Lambda MUD</h2>
               <a href="https://adventureatlambda.netlify.com/" className="gifhere">
               <img className="gifone" src={lambdamud} /></a>
             </div>
@@ -24,6 +25,7 @@ const Projects = () => {
           
             <div className="projectcontainer">
               <div className="gifcontainer">
+              <h2 className="projectTitle"> Symposium</h2>
                 <a href="https://symposium-frontend.netlify.com/" className="gifhere">
                 <img className="gif" src={symposium} /></a>
               </div>

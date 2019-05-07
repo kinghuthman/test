@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Pdf from './HuthmanKingWebDeveloper.pdf';
+import Pdf from './Huthman King Web Developer.pdf';
 import resume from './Huthman King Web Developer.jpg';
 
 class Resume extends Component {
