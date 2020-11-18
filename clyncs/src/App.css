@@ -2,23 +2,20 @@
   text-align: center;
   margin: 0 auto;
   max-width: 1080px;
-  width:100%;
+  width: 100%;
   font: Didot;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-  
-  
 }
 
 .App-header {
   height: 150px;
   padding: 20px;
   color: white;
- background-color: white;
-  
+  background-color: white;
 }
 
 .App-title {
@@ -31,61 +28,63 @@
 .App-subtitle {
   font-size: 2.5em;
   margin-top: 50px;
-  margin-bottom:50px;
+  margin-bottom: 50px;
   color: black;
   font: Helvetica;
 }
-
 
 .App-intro {
   font-size: large;
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-
-.infinite{
+.infinite {
   margin-top: 180px;
-  margin-bottom:80px;
-  width:15%;
+  margin-bottom: 80px;
+  width: 15%;
   animation: App-logo-spin infinite 20s linear;
 }
 
-.gif{
+.gif {
   margin-top: 20px;
   margin-bottom: 20px;
-  width:70%;
+  width: 70%;
 }
 
-.gifone{
+.gifone {
   margin-top: 20px;
   margin-bottom: 20px;
-  width:80%;
+  width: 80%;
 }
 
-.btn{
+.btn {
   display: flex;
   justify-content: space-evenly;
-  width:100%;
+  width: 100%;
   margin-top: 0px;
 }
 
-.homepage{
+.homepage {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.home{
+.home {
   display: flex;
   justify-content: center;
   align-content: center;
-  width:80%;
+  width: 80%;
   margin-top: 0px;
   background-image: url("./4795545136_IMG_0989.png");
-  height: 100%; 
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,7 +93,7 @@
 }
 
 @media screen and (max-width: 1080px) {
-  .home{
+  .home {
     width: 100%;
     background-image: url("./huff.jpg");
     display: flex;
@@ -103,28 +102,28 @@
     margin-top: 2%;
   }
 }
-.homeContent{
+.homeContent {
   color: white;
 }
 @media screen and (max-width: 1080px) {
-  .homeContent{
-    font-size: 14px;
+  .homeContent {
+    font-size: 22px;
     display: flex;
-  justify-content: center;
-  align-content: center;
-  width: 140%;
+    justify-content: center;
+    align-content: center;
+    width: 140%;
   }
 }
 
-.resume{
+.resume {
   width: 70%;
 }
-.resumeimg{
+.resumeimg {
   position: relative;
   right: -15%;
 }
 
-.contact{
+.contact {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -132,16 +131,20 @@
   flex-direction: column;
   align-items: center;
 }
-.aboutcontainer{
+.title {
+  font-size: 14px;
+}
+
+.aboutcontainer {
   width: 80%;
 }
-.aboutcontain{
+.aboutcontain {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   align-items: center;
 }
-.aboutheader{
+.aboutheader {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -149,28 +152,28 @@
   flex-direction: column;
   align-items: center;
 }
-.gifcontainer{
+.gifcontainer {
   position: relative;
   right: -50px;
 }
-.projectcontainer{
+.projectcontainer {
   width: 100%;
 }
-.projectcontains{
+.projectcontains {
   display: flex;
   width: 80%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-.projectcontainers{
+.projectcontainers {
   display: flex;
   justify-content: center;
 }
-.gifhere a{
+.gifhere a {
   text-decoration: none;
 }
-.projectTitle{
+.projectTitle {
   text-decoration: underline;
 }
 .line {
@@ -180,12 +183,12 @@ a {
   text-decoration: none;
   color: black;
 }
-a:hover{
+a:hover {
   text-decoration: underline;
-  opacity: .5;
+  opacity: 0.5;
 }
 
-.info{
+.info {
   display: flex;
   flex-direction: column;
   font-size: 24px;
@@ -198,15 +201,14 @@ a:hover{
 }
 
 @media screen and (max-width: 1080px) {
-  .info{
-    width:80%;
+  .info {
+    width: 80%;
     position: relative;
     right: 20%;
   }
 }
 
-
-.about{
+.about {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -214,52 +216,52 @@ a:hover{
   align-items: center;
 }
 
-.aboutme{
+.aboutme {
   display: flex;
   font-size: 24px;
   margin-right: 0%;
   width: 96%;
   align-content: center;
-  opacity: .6;
+  opacity: 0.6;
 }
-.aboutmelist{
-  opacity: .6;
+.aboutmelist {
+  opacity: 0.6;
 }
 
-.sociallink{
+.sociallink {
   color: white;
 }
 
 @media screen and (max-width: 1080px) {
-  .socials{
-    width: 85%;
+  .socials {
+    width: 80%;
   }
 }
 
 .sociallink:hover {
-  opacity: .4;
+  opacity: 0.4;
   position: relative;
   top: -5px;
 }
-.resumecontain{
+.resumecontain {
   display: flex;
   justify-content: space-evenly;
   width: 80%;
   align-items: center;
   flex-direction: column;
 }
-.resumecontains{
+.resumecontains {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   align-items: center;
 }
-.resumecontainer{
-    width: 80%;
-  }
-button{
-  width:200px;
-  height:50px;
+.resumecontainer {
+  width: 80%;
+}
+button {
+  width: 200px;
+  height: 50px;
   font-size: 2em;
   border-radius: 0%;
 }
@@ -267,13 +269,18 @@ button{
 body {
   padding: 20px;
   margin: 0;
- /* background-image: url("./0_HICLyAdNSIyT0ODU.jpg");
+  /* background-image: url("./0_HICLyAdNSIyT0ODU.jpg");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */ 
+  background-size: cover; */
 }
-h1, h2, p, ul, li, a {
+h1,
+h2,
+p,
+ul,
+li,
+a {
   font-family: Didot;
 }
 ul.header li {
@@ -294,7 +301,6 @@ ul.header {
   z-index: 100;
   top: 0px;
   box-shadow: 0 0 5px;
-  
 }
 
 @media screen and (max-width: 1080px) {
@@ -313,14 +319,14 @@ ul.header {
   }
 }
 ul.header li a {
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
   display: inline-block;
 }
 ul.header li a:hover {
-  opacity: .4;
+  opacity: 0.4;
   position: relative;
   top: 3px;
 }
@@ -332,7 +338,7 @@ ul.header li a:hover {
 }
 
 @media screen and (max-width: 1080px) {
-  .content{
+  .content {
     margin-top: 5%;
   }
 }

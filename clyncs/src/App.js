@@ -18,19 +18,19 @@ class App extends Component {
     return (
       <HashRouter>
         <div>
-          <ul className="header">
+          {/* <ul className="header">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/about">About Me</NavLink></li>
             <li><NavLink to="/projects">Projects</NavLink></li>
             <li><NavLink to="/resume">Resume</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
-          </ul>
+          </ul> */}
           <div className="content">
-            <Route exact path="/" component={HomepageContent}/>
+            {/* <Route exact path="/" component={HomepageContent}/>
             <Route path="/about" component={AboutMe}/>
             <Route path="/projects" component={Projects}/>
-            <Route path="/resume" component={Resume}/>
-            <Route path="/contact" component={Contact}/>
+            <Route path="/resume" component={Resume}/> */}
+            <Route path="/" component={Contact}/>
           </div>
         </div>
       </HashRouter>
