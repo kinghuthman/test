@@ -1,1 +1,1 @@
-Creatives Lync brings creators and admirors alike to one place. 
+Creatives Lync brings creators and admirers alike to one place. 
