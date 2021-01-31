@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
 import styled from 'styled-components/macro';
+import myGif from '../../../assets/Eye-Animation-v4.gif';
 
 export function HomePage() {
   return (
@@ -11,12 +12,10 @@ export function HomePage() {
       </Helmet>
       <Wrapper>
         <Wrapper2>
-          <div className="contact">
-            {/* <h1>Get in Touch</h1>  */}
-            <h1 className="title">UNDER CONSTRUCTION</h1>
-            <PTag>Looking to ask a question or work together?</PTag>
-            <PTag2>Email me at kinghuthman@gmail.com</PTag2>
-          </div>
+          <h1 className="title">UNDER CONSTRUCTION</h1>
+          <PTag>Looking to ask a question or work together?</PTag>
+          <PTag2>Email me at kinghuthman@gmail.com</PTag2>
+          <MyGif src={myGif} />
         </Wrapper2>
       </Wrapper>
     </>
@@ -30,8 +29,7 @@ const Wrapper = styled.div`
 `;
 
 const Wrapper2 = styled.div`
-  display: flex;
-  margin: 20vh 0 0 0;
+  margin-top: 25vh;
 `;
 
 const PTag = styled.p`
@@ -40,4 +38,9 @@ const PTag = styled.p`
 
 const PTag2 = styled.p`
   margin-left: 3vw;
+`;
+
+const MyGif = styled.img`
+  height: 250px;
+  width: 400px;
 `;
