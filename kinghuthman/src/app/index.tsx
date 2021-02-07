@@ -14,6 +14,7 @@ import { GlobalStyle } from 'styles/global-styles';
 
 import { HomePage } from './containers/HomePage/Loadable';
 import { NotFoundPage } from './components/NotFoundPage/Loadable';
+import { About } from './components/About/index';
 import { useTranslation } from 'react-i18next';
 
 export function App() {
@@ -30,6 +31,7 @@ export function App() {
 
       <Switch>
         <Route exact path="/" component={HomePage} />
+        <Route exact path="/about" component={About} />
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />

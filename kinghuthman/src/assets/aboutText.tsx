@@ -1,0 +1,5 @@
+const textBio = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales erat vel lacus placerat blandit. Nullam semper, quam sit amet cursus faucibus, augue quam pretium nisi, ut dictum tortor urna eget felis. Fusce et mauris nibh. In sit amet sodales lacus. Integer ut ligula eget turpis auctor aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur et libero sit amet lectus feugiat feugiat eu a nibh. Vivamus id sem sit amet nulla dignissim placerat. Nullam facilisis eu ex in pretium.
+
+Aliquam a rhoncus lectus. Morbi fringilla, nunc ullamcorper hendrerit porttitor, sem ligula feugiat libero, at pellentesque dolor augue et mi. Curabitur sed ultrices orci. Nulla in elit in risus vehicula aliquet. Sed id lorem accumsan, viverra tortor eu, sodales mauris. Nulla id lectus non sapien eleifend elementum. Suspendisse non dictum lacus. Suspendisse sodales tortor vel elit pellentesque congue. Mauris a tincidunt est, et viverra nisi.`;
+
+export default textBio;
